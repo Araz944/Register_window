@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <a href="index.html" class="multi-language-link eng">ENG</a>
+    <a href="index(aze).html" class="multi-language-link">AZE</a>
+    <form class="form" id="form" action="page.html" method="POST">
+        <div class="reg">Registration</div>
+        <div id="empty-fields-message">*Please fill all inputs below</div>
+        <div class="fields-block">
+            <div class="fields-value" id="username">Username <input class="input-fields username" type="text" value=""></div>
+            <div class="fields-value" id="email">Email <input class="input-fields email" type="text"></div>
+            <div class="fields-value" id="password">Password <input class="input-fields password" type="password"
+                title="6 characters minimum"></div>
+            <div class="fields-value"id="again">Again <input class="input-fields again" type="password"
+                title="6 characters minimum"></div>
+        </div>
+        <div class="btn-block">
+            <button class="btn-login" id="login" type="button" onclick="loginClick()">Login</button>
+            <button id="btn" class="btn" type="button" onclick="buttonClick()">Create</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+    <script>
+        function loginClick() {
+            location.href = "login.html"
+        }
+    </script>
+</body>
+</html>

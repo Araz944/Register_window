@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.multi-language-link {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: #8B008B;
+    cursor: pointer;
+}
+
+.aze {
+    color: #FF00FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.eng {
+    color: #FF00FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form {
+    background-color: #add8e6;
+    margin: auto;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    align-content: stretch;
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.reg {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 35px 10px 35px;
+}
+
+.log {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 35px 10px 35px;
+}
+
+#empty-fields-message {
+    display: none;
+    background-color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fields-block {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.fields-block-login {
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.fields-value {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
+    color: blue;
+    width: 230px;
+}
+
+#password1 {
+    margin-bottom: 20px;
+}
+
+.input-fields {
+    float: right;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 15px;
+    width: 130px;
+}
+
+.input-fields:hover {
+    border-bottom: 2px solid;
+    /* border: 2px solid grey; */
+    border-radius: 2px;
+}
+
+.login-remember {
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+    color: blue;
+    font-size: 15px;
+}
+
+.login-remember > input {
+    margin: 5px;
+}
+
+.login-forgot-password {
+    margin: 5px 0;
+}
+
+.login-forgot-password > a {
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+.btn-block {
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.btn-login {
+    padding: 7px 14px;
+    margin-right: 38px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: gainsboro;
+    color: dodgerblue;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: dodgerblue;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-sign-up {
+    position: relative;
+    right: 53px;
+    padding: 7px 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: #DC143C;
+    color: #FFD700;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-sign-up:hover {
+    background-color: #FFD700;
+    color: #DC143C;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 7px 18px;
+    font-size: 15px;
+    background-color: turquoise;
+    color: teal;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-style: italic;
+    opacity: 0.9;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.btn:hover {
+    background-color: teal;
+    color: turquoise;
+    opacity: 0.8;
+}
+
+#after-register-text {
+    display: block;
+    font-size: 30px;
+    color: green;
+    margin: 20px 20px;
+    background-color: lightpink;
+}
+
+#username-inside-text {
+    color: blue;
+    opacity: 0.8;
+}
+
+#email-inside-text {
+    color: blue;
+    opacity: 0.8;
+}

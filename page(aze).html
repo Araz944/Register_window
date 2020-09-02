@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sənəd | Uğurlu qeydiyyat</title>
+</head>
+<body>
+    <div id="after-register-text">Hörmətli <span id="username-inside-text"></span>, siz uğurla qeydiyyatdan keçdiniz. 
+        Sizin email adresiniz: <span id="email-inside-text"></span></div>
+    <script>
+        document.getElementById('username-inside-text').innerHTML = localStorage.getItem('Username');
+        document.getElementById('email-inside-text').innerHTML = localStorage.getItem('Email');
+    </script>
+</body>
+</html>

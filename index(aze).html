@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Qeydiyyat</title>
+</head>
+<body>
+    <a href="index.html" class="multi-language-link">ENG</a>
+    <a href="index(aze).html" class="multi-language-link aze">AZE</a>
+    <form class="form" id="form" action="page.html" method="POST">
+        <div class="reg">Qeydiyyat</div>
+        <div id="empty-fields-message">*Aşağıdakı bütün xanaları doldurun</div>
+        <div class="fields-block">
+            <div class="fields-value" id="username" style="width: 250px">İstifadəçi adı <input class="input-fields username" type="text" value=""></div>
+            <div class="fields-value" id="email" style="width: 250px">Elektron ünvan <input class="input-fields email" type="text"></div>
+            <div class="fields-value" id="password" style="width: 250px">Şifrə <input class="input-fields password" type="password"
+                title="6 characters minimum"></div>
+            <div class="fields-value"id="again" style="width: 250px">Şifrə (təkrar) <input class="input-fields again" type="password"
+                title="6 characters minimum"></div>
+        </div>
+        <div class="btn-block">
+            <button class="btn-login" id="login" type="button" style="position: relative; right: 35px; letter-spacing: 1px;
+            margin-right: 0; padding: 7px 12px;" onclick="loginClick()">Daxil ol</button>
+            <button id="btn" class="btn" type="button" style="position: relative; left: 2px; padding: 7px 14px;
+            letter-spacing: 2px;" onclick="buttonClick()">Təsdiqlə</button>
+        </div>
+    </form>
+    <script src="main(aze).js"></script>
+    <script>
+        function loginClick() {
+            location.href = "login(aze).html"
+        }
+    </script>
+</body>
+</html>

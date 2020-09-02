@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <a href="login.html" class="multi-language-link eng">ENG</a>
+    <a href="login(aze).html" class="multi-language-link">AZE</a>
+    <form class="form" id="form" action="page.html" method="POST">
+        <div class="log">Login</div>
+        <div id="empty-fields-message">*İnvalid input fields</div>
+        <div class="fields-block-login">
+            <div class="fields-value" id="username1">Username <input class="input-fields username" type="text" value=""></div>
+            <div class="fields-value" id="password1">Password <input class="input-fields password" type="password"></div>
+            <label class="login-remember">Remember me <input type="checkbox" name="checkbox" value="value"></label>
+            <div class="login-forgot-password"><a href="#">Forgot your password?</a></div>
+        </div>
+        <div class="btn-block">
+            <button class="btn-sign-up" id="sign-up" type="button" onclick="signUpClick()">Sign up</button>
+            <button id="btn" class="btn" type="button">Login</button>
+        </div>
+    </form>
+    <script>
+        function signUpClick() {
+            location.href = "index.html"
+        }
+    </script>
+</body>
+</html>
